@@ -3,10 +3,10 @@ import { Typography } from "../Typography";
 export function Skills() {
   return (
     <div className="flex justify-around items-center flex-col p-5 pb-40 gap-12 font-bold min-h-screen">
-      <Typography className="font-bold pt-8 text-xl">Skills</Typography>
-      <section className="flex justify-start items-start min-w-full flex-col">
+      <Typography className="font-bold pt-8 text-3xl">Skills</Typography>
+      <section className="flex justify-start items-start min-w-full flex-col text-xl">
         <Typography className="text-brand-secondary">Development</Typography>
-        <div className="flex flex-wrap gap-4 font-normal text-sm pt-8">
+        <div className="flex flex-wrap gap-4 font-normal text-lg pt-8">
           <span>HTML</span>
           <span>CSS</span>
           <span>Javascript</span>
