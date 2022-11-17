@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 export default function TypingEffectTitle() {
   return (
-    <div className="text-white">
+    <div className="text-dark dark:text-white">
       <Typewriter
         onInit={(typewriter) => {
           typewriter

@@ -15,7 +15,7 @@ export default function Main() {
       <Head>
         <title>will.coding</title>
       </Head>
-      <main className="flex flex-col items-center text-white font-poppins">
+      <main className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins ">
         <Home />
         <About />
         <Portfolio />

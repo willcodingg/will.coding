@@ -6,7 +6,7 @@ import { ScrollReveal } from "../ScrollReveal";
 export function About() {
   return (
     <ScrollReveal>
-      <div className="flex flex-col justify-around items-center max-w-sm p-5 pb-24 gap-12 min-h-screen">
+      <div className="flex flex-col justify-around items-center max-w-sm p-5 pb-24 gap-12 min-h-screen xl:max-w-6xl">
         <Typography className="font-bold pt-8 text-3xl">About</Typography>
         <Image
           className="inline object-cover w-16 h-16 rounded-full"
@@ -15,7 +15,7 @@ export function About() {
         />
         <Typography className="text-brand-secondary font-bold flex flex-col items-center gap-2 text-lg">
           I’m William Jonathan
-          <span className="text-white font-normal text-sm">
+          <span className="text-dark font-normal text-sm dark:text-white ">
             FullStack Engineer
           </span>
         </Typography>

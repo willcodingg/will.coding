@@ -3,7 +3,7 @@ import { Typography } from "../Typography";
 
 export function Skills() {
   return (
-    <div className="flex justify-around items-center flex-col max-w-sm p-5 pb-40 gap-12 font-bold min-h-screen">
+    <div className="flex justify-around items-center flex-col max-w-sm p-5 pb-40 gap-12 font-bold min-h-screen xl:max-w-6xl">
       <ScrollReveal>
         <Typography className="font-bold pt-8 text-3xl">Skills</Typography>
       </ScrollReveal>
