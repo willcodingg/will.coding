@@ -15,7 +15,7 @@ export default function Main() {
       <Head>
         <title>will.coding</title>
       </Head>
-      <main className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins transition-colors duration-300">
+      <main className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins transition-colors duration-500">
         <Home />
         <About />
         <Portfolio />
