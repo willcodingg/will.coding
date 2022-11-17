@@ -1,5 +1,12 @@
 import Head from "next/head";
-import { Home, About, Footer, Portfolio, Skills } from "../components";
+import {
+  Home,
+  About,
+  Footer,
+  Portfolio,
+  Skills,
+  ScrollReveal,
+} from "../components";
 
 export default function Main() {
   return (

@@ -1,11 +1,12 @@
 import Typewriter from "typewriter-effect";
 
-export default function TypingEffect() {
+export default function TypingEffectTitle() {
   return (
     <div className="text-white">
       <Typewriter
         onInit={(typewriter) => {
           typewriter
+            .pauseFor(1000)
             .changeDelay(70)
             .typeString("Working to build")
             .typeString(" <span style='color: #3748CD'>top-notch<span> ")
