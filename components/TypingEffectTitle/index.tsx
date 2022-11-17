@@ -6,7 +6,7 @@ export default function TypingEffectTitle() {
       <Typewriter
         onInit={(typewriter) => {
           typewriter
-            .pauseFor(1000)
+            .pauseFor(500)
             .changeDelay(70)
             .typeString("Working to build")
             .typeString(" <span style='color: #3748CD'>top-notch<span> ")

@@ -7,7 +7,7 @@ export const ScrollReveal = ({ children }: any) => {
       if (refToComponent.current) {
         const sr = (await import("scrollreveal")).default;
         sr().reveal(refToComponent.current, {
-          duration: 2500,
+          duration: 1200,
           delay: 500,
         });
       }

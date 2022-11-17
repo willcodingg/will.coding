@@ -5,8 +5,8 @@ import { ScrollReveal } from "../ScrollReveal";
 
 export function About() {
   return (
-    <div className="flex flex-col justify-around items-center max-w-sm p-5 pb-24 gap-12 min-h-screen">
-      <ScrollReveal>
+    <ScrollReveal>
+      <div className="flex flex-col justify-around items-center max-w-sm p-5 pb-24 gap-12 min-h-screen">
         <Typography className="font-bold pt-8 text-3xl">About</Typography>
         <Image
           className="inline object-cover w-16 h-16 rounded-full"
@@ -19,8 +19,6 @@ export function About() {
             FullStack Engineer
           </span>
         </Typography>
-      </ScrollReveal>
-      <ScrollReveal>
         <Typography className="text-center text-lg max-w-sm">
           Hello, my name is William Jonathan, currently i work as fullstack
           engineer. During my job experiencies i learn to work in back-end and
@@ -29,7 +27,7 @@ export function About() {
           learn good pratices too, like DDD (Domain-Driven-Desing), TDD and
           Clean Architeture.
         </Typography>
-      </ScrollReveal>
-    </div>
+      </div>
+    </ScrollReveal>
   );
 }
