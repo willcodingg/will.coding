@@ -2,7 +2,7 @@ import { Typography } from "../Typography";
 
 export function Skills() {
   return (
-    <div className="flex justify-around items-center flex-col p-5 pb-40 gap-12 font-bold min-h-screen">
+    <div className="flex justify-around items-center flex-col max-w-sm p-5 pb-40 gap-12 font-bold min-h-screen">
       <Typography className="font-bold pt-8 text-3xl">Skills</Typography>
       <section className="flex justify-start items-start min-w-full flex-col text-xl">
         <Typography className="text-brand-secondary">Development</Typography>

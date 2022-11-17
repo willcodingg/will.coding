@@ -4,7 +4,7 @@ import profile from "../../styles/assets/w.coding.png";
 
 export function About() {
   return (
-    <div className="flex justify-around items-center flex-col bg-dark-secondary p-5 pb-24 gap-12 min-h-screen">
+    <div className="flex flex-col justify-around items-center max-w-sm p-5 pb-24 gap-12 min-h-screen">
       <Typography className="font-bold pt-8 text-3xl">About</Typography>
       <Image
         className="inline object-cover w-16 h-16 rounded-full"

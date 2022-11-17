@@ -8,7 +8,7 @@ export default function Main() {
       <Head>
         <title>will.coding</title>
       </Head>
-      <main className="text-white font-poppins">
+      <main className="flex flex-col items-center text-white font-poppins">
         <Home />
         <About />
         <Portfolio />
