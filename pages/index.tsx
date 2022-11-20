@@ -18,7 +18,7 @@ export default function Main() {
       </Head>
       <div className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins transition-colors duration-1000">
         <Header />
-        <main className="p-8 w-full">
+        <main className="p-8 w-full flex flex-col justify-center max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-4xl">
           <Home />
           <About />
           <Portfolio />

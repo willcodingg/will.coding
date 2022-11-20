@@ -13,7 +13,7 @@ export function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between w-full p-8">
+    <header className="flex items-center justify-between w-full p-8 max-w-sm md:max-w-md lg:max-w-3xl xl:max-w-4xl">
       <Typography className="text-dark dark:text-white">will.coding</Typography>
 
       <button onClick={themeSwitch}>

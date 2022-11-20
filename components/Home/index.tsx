@@ -5,10 +5,10 @@ import { Typography } from "../Typography";
 
 export function Home() {
   return (
-    <div className="flex justify-evenly items-center flex-wrap h-[80vh] xl:self-baseline">
-      <section className="flex justify-center items-start flex-col text-lg min-w-full max-w-xs text-start">
+    <div className="flex justify-evenly items-center flex-wrap h-[80vh] lg:min-w-full lg:justify-between lg:items-start lg:pt-32">
+      <section className="flex justify-center items-start flex-col text-lg min-w-full text-start lg:min-w-0 lg:w-2/3 lg:text-3xl lg:gap-2">
         <Typography className="text-brand-secondary">Hi, my name is</Typography>
-        <Typography className="text-xl font-bold">William Jonathan</Typography>
+        <Typography className="text-4xl font-bold">William Jonathan</Typography>
         <TypingEffectTitle />
         <a
           className="mt-2"
@@ -23,7 +23,7 @@ export function Home() {
       </section>
       <Image
         priority={true}
-        className="w-40 xl:max-w-md"
+        className="w-40 lg:flex-grow"
         src={cup3D}
         alt="3d model of a cup"
       />
