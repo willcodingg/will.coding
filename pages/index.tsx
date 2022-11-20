@@ -6,6 +6,7 @@ import {
   Portfolio,
   Skills,
   ScrollReveal,
+  Header,
 } from "../components";
 
 export default function Main() {
@@ -15,13 +16,14 @@ export default function Main() {
       <Head>
         <title>will.coding</title>
       </Head>
-      <main className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins transition-colors duration-500">
-        <Home />
-        <About />
-        <Portfolio />
-        <Skills />
-        <Footer />
-      </main>
+      <div className="flex flex-col items-center bg-white text-dark dark:bg-dark dark:text-white font-poppins transition-colors duration-1000">
+        <Header />
+        <main className="p-8 w-full">
+          <Home />
+          <About />
+          <Portfolio />
+        </main>
+      </div>
     </>
   );
 }

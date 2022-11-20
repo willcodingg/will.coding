@@ -15,6 +15,7 @@ module.exports = {
         "dark-secondary": "#242424",
         brand: "#0E22BE",
         "brand-secondary": "#3748CD",
+        "brand-lighter": "#9CA6EF",
         "brand-hover": "#3B4DD9",
       },
     },

@@ -8,3 +8,4 @@ export * from "./Portfolio";
 export * from "./Skills";
 export * from "./ScrollReveal";
 export * from "./TypingEffectTitle";
+export * from "./Header";

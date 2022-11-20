@@ -1,27 +1,47 @@
 import { Typography } from "../Typography";
-import { ScrollReveal } from "../ScrollReveal";
+import { BsInstagram } from "react-icons/bs";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 export function Portfolio() {
   return (
-    <ScrollReveal>
-      <div className="flex justify-around items-center flex-col max-w-sm p-5 pb-0 gap-12 min-h-screen xl:max-w-6xl">
-        <Typography className="font-bold pt-8 text-3xl">Portfolio</Typography>
-        <ScrollReveal>
-          <div className="border-dark dark:border-white border-solid border-2 pt-12 pb-12 pl-24 pr-24 rounded-lg drop-shadow-xl">
-            <Typography className="text-2xl">SOON</Typography>
-          </div>
-        </ScrollReveal>
-        <ScrollReveal>
-          <div className="border-brand-secondary border-solid border-2 pt-12 pb-12 pl-24 pr-24 rounded-lg drop-shadow-xl">
-            <Typography className="text-2xl">SOON</Typography>
-          </div>
-        </ScrollReveal>
-        <ScrollReveal>
-          <div className="border-dark dark:border-white border-solid border-2 pt-12 pb-12 pl-24 pr-24 rounded-lg drop-shadow-xl">
-            <Typography className="text-2xl">SOON</Typography>
-          </div>
-        </ScrollReveal>
+    <div className="flex flex-col max-w-sm justify-around gap-12 min-h-screen">
+      <Typography className="text-2xl">Portfolio</Typography>
+      <div className="border-brand-lighter text-brand-lighter border-solid border-2 pt-14 pb-14 pl-24 pr-24">
+        <Typography className="text-5xl text-center">SOON</Typography>
       </div>
-    </ScrollReveal>
+      <div className="border-brand-lighter text-brand-lighter border-solid border-2 pt-14 pb-14 pl-24 pr-24">
+        <Typography className="text-5xl text-center">SOON</Typography>
+      </div>
+      <div>
+        <section className="flex text-3xl gap-12 justify-center dark:text-white">
+          <a
+            className="cursor-pointer hover:text-brand-secondary"
+            href="https://www.github.com/willcodingg/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiGithub />
+          </a>
+          <a
+            className="cursor-pointer hover:text-brand-secondary"
+            href="https://www.instagram.com/will.coding/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsInstagram />
+          </a>
+          <a
+            className="cursor-pointer hover:text-brand-secondary"
+            href="https://www.linkedin.com/in/willcoding/"
+          >
+            <FiLinkedin />
+          </a>
+        </section>
+        <Typography className="text-center pt-4">
+          Build by{" "}
+          <span className="text-brand-secondary">William Jonathan</span>
+        </Typography>
+      </div>
+    </div>
   );
 }
