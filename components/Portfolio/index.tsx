@@ -33,6 +33,8 @@ export function Portfolio() {
           <a
             className="cursor-pointer hover:text-brand-secondary"
             href="https://www.linkedin.com/in/willcoding/"
+            target="_blank"
+            rel="noreferrer"
           >
             <FiLinkedin />
           </a>

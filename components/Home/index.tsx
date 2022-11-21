@@ -18,7 +18,7 @@ export function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="border border-brand pr-8 pl-8 pt-2 pb-2 text-lg line text-brand-secondary dark:text-white dark:bg-brand-secondary dark:border-none">
+          <button className="border border-brand pr-8 pl-8 pt-2 pb-2 text-lg line text-brand-secondary hover:bg-brand-secondary hover:text-white dark:hover:bg-brand dark:text-white dark:bg-brand-secondary dark:border-none transition-colors duration-200">
             Instagram
           </button>
         </a>
